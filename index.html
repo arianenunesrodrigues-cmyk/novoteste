@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Metadados -->
+  <title>Google Antigravity & Modelos de IA | O Futuro do Desenvolvimento Autônomo</title>
+  <meta name="description" content="Descubra o potencial do Google Antigravity e dos modelos de inteligência artificial de última geração. Orquestração agêntica, contexto massivo e codificação autônoma.">
+  <meta name="keywords" content="Google Antigravity, Inteligência Artificial, Modelos de IA, Gemini 1.5 Pro, Gemini Flash, Agentes Autônomos, Vercel, Engenharia de Software">
+  <meta name="author" content="Antigravity Experience">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Google Antigravity & Modelos de IA">
+  <meta property="og:description" content="Explore o universo da engenharia de software agêntica impulsionada por LLMs de ponta.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Tipografia do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Ícones Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f2fe'><path d='M12 2L2 7l10 5 10-5-10-5zm0 9l-10-5v9l10 5 10-5v-9l-10 5z'/></svg>">
+</head>
+<body>
+
+  <!-- Canvas de Partículas Interativas -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Barra de Navegação -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="logo-link">
+        <div class="logo-icon">
+          <i class="ph ph-sparkle"></i>
+        </div>
+        <span class="logo-text">Anti<strong>gravity</strong> <span class="badge-version">v2.0</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#overview" class="nav-link">Visão Geral</a>
+        <a href="#models" class="nav-link">Modelos de IA</a>
+        <a href="#architecture" class="nav-link">Arquitetura Agêntica</a>
+        <a href="#simulator" class="nav-link">Simulador de Agente</a>
+        <a href="#best-practices" class="nav-link">Boas Práticas</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#simulator" class="btn-primary-small" id="cta-header-sim">
+          <i class="ph ph-terminal-window"></i> Testar Console
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu">
+          <i class="ph ph-list"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Hero -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Google DeepMind &bull; Orquestração Agêntica Avançada</span>
+        </div>
+
+        <h1 class="hero-title">
+          Construa o Impossível com <br>
+          <span class="gradient-text">Antigravity & Modelos de IA</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Uma nova era do desenvolvimento onde agentes inteligentes planejam, executam ferramentas nativas no sistema, depuram código e interagem em navegadores em harmonia com os modelos de linguagem mais poderosos do planeta.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#simulator" class="btn btn-glow" id="btn-hero-simulator">
+            <i class="ph ph-play-circle"></i> Iniciar Demonstração
+          </a>
+          <a href="#models" class="btn btn-secondary" id="btn-hero-models">
+            <i class="ph ph-cpu"></i> Explorar Modelos
+          </a>
+        </div>
+
+        <!-- Indicadores de Destaque -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-number">2M+</span>
+            <span class="stat-label">Tokens de Contexto (Gemini Pro)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Execução de Ferramentas Nativas</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Sub-1s</span>
+            <span class="stat-label">Latência Ultra-rápida (Gemini Flash)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Multi-Agente</span>
+            <span class="stat-label">Planejamento & Navegador Integrado</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: O que é o Antigravity -->
+    <section class="section" id="overview">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Conceito & Filosofia</span>
+          <h2 class="section-title">O Que é o Google Antigravity?</h2>
+          <p class="section-description">
+            Muito além de um mero assistente de chat, o Antigravity é uma plataforma agentic de par programador desenhada para orquestrar tarefas ponta a ponta com acesso seguro a ferramentas reais de engenharia de software.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon bg-cyan">
+              <i class="ph ph-brain"></i>
+            </div>
+            <h3 class="feature-title">Raciocínio & Planejamento</h3>
+            <p class="feature-text">
+              Antes de tocar em uma linha de código em tarefas complexas, o agente analisa o repositório, formula artefatos de plano e valida arquiteturas com o desenvolvedor.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon bg-purple">
+              <i class="ph ph-terminal"></i>
+            </div>
+            <h3 class="feature-title">Ferramentas de Sistema Nativas</h3>
+            <p class="feature-text">
+              Executa comandos de terminal em segundo plano, utiliza <code class="code-tag">ripgrep</code> ultraveloz para busca no código e altera múltiplos trechos com segurança.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon bg-emerald">
+              <i class="ph ph-globe"></i>
+            </div>
+            <h3 class="feature-title">Subagente de Navegador</h3>
+            <p class="feature-text">
+              Abre páginas em navegador headless real, inspeciona o DOM, clica em elementos e grava sessões para testar fluxos visuais e validar aplicações front-end.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon bg-amber">
+              <i class="ph ph-puzzle-piece"></i>
+            </div>
+            <h3 class="feature-title">Sistema de Skills & Regras</h3>
+            <p class="feature-text">
+              Extensibilidade via arquivos de personalização (<code class="code-tag">.agents/skills</code> e regras em Markdown), garantindo alinhamento às diretrizes do seu time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Modelos de IA e Integração -->
+    <section class="section section-darker" id="models">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Inteligência Multimodal</span>
+          <h2 class="section-title">Modelos de IA: O Motor da Inteligência</h2>
+          <p class="section-description">
+            O Antigravity se conecta com os modelos mais avançados, permitindo alternar dinamicamente entre velocidade e capacidade profunda de raciocínio.
+          </p>
+        </div>
+
+        <!-- Filtros dos Modelos -->
+        <div class="filter-wrapper">
+          <div class="filter-group" id="model-filter-group">
+            <button class="filter-btn active" data-filter="all">Todos os Modelos</button>
+            <button class="filter-btn" data-filter="fast">Ultra Velocidade</button>
+            <button class="filter-btn" data-filter="reasoning">Raciocínio Profundo</button>
+            <button class="filter-btn" data-filter="multimodal">Multimodalidade</button>
+          </div>
+        </div>
+
+        <!-- Cards de Modelos -->
+        <div class="models-grid" id="models-container">
+          <!-- Card Gemini 1.5 Flash -->
+          <div class="model-card" data-category="fast multimodal">
+            <div class="model-header">
+              <div class="model-title-wrap">
+                <h3 class="model-name">Gemini 1.5 Flash</h3>
+                <span class="model-tag tag-speed">Velocidade Extrema</span>
+              </div>
+              <div class="model-badge-icon">⚡</div>
+            </div>
+            <p class="model-desc">
+              Otimizado para baixa latência, respostas quase instantâneas em tarefas repetitivas, auto-complete e navegação rápida por código.
+            </p>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Janela de Contexto</span>
+                <span class="metric-value">1.000.000 tokens</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Latência Média</span>
+                <span class="metric-value text-emerald">&lt; 0.4s</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Especialidade</span>
+                <span class="metric-value">Scanners & Buscas</span>
+              </div>
+            </div>
+            <div class="model-footer">
+              <span class="best-for">Ideal para: Diagnósticos rápidos, linters e automações em background</span>
+            </div>
+          </div>
+
+          <!-- Card Gemini 1.5 Pro -->
+          <div class="model-card featured-model" data-category="reasoning multimodal">
+            <div class="featured-ribbon">Recomendado para Arquitetura</div>
+            <div class="model-header">
+              <div class="model-title-wrap">
+                <h3 class="model-name">Gemini 1.5 Pro</h3>
+                <span class="model-tag tag-power">Raciocínio Massivo</span>
+              </div>
+              <div class="model-badge-icon">🧠</div>
+            </div>
+            <p class="model-desc">
+              Capacidade inigualável de raciocínio lógico em bases de código gigantescas, mantendo coerência contextual de centenas de arquivos.
+            </p>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Janela de Contexto</span>
+                <span class="metric-value text-cyan">2.000.000+ tokens</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Compreensão de Código</span>
+                <span class="metric-value text-emerald">Nível Especialista</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Especialidade</span>
+                <span class="metric-value">Refatorações Complexas</span>
+              </div>
+            </div>
+            <div class="model-footer">
+              <span class="best-for">Ideal para: Criação de projetos completos, resolução de bugs difíceis e testes E2E</span>
+            </div>
+          </div>
+
+          <!-- Card Gemini 3.8 Flash -->
+          <div class="model-card" data-category="fast reasoning">
+            <div class="model-header">
+              <div class="model-title-wrap">
+                <h3 class="model-name">Gemini 3.8 Flash</h3>
+                <span class="model-tag tag-next">Nova Geração</span>
+              </div>
+              <div class="model-badge-icon">🚀</div>
+            </div>
+            <p class="model-desc">
+              Equilíbrio cirúrgico entre inferência acelerada e compreensão conceitual refinada para agentes autônomos em tempo real.
+            </p>
+            <div class="model-metrics">
+              <div class="metric">
+                <span class="metric-label">Janela de Contexto</span>
+                <span class="metric-value">1.500.000 tokens</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Rendimento Agêntico</span>
+                <span class="metric-value text-purple">+40% vs v1</span>
+              </div>
+              <div class="metric">
+                <span class="metric-label">Especialidade</span>
+                <span class="metric-value">Tool Calling Contínuo</span>
+              </div>
+            </div>
+            <div class="model-footer">
+              <span class="best-for">Ideal para: Ciclos de desenvolvimento iterativo e interação com subagentes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Arquitetura Agêntica Interativa -->
+    <section class="section" id="architecture">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Fluxo Agêntico</span>
+          <h2 class="section-title">Como o Antigravity Orquestra a Solução</h2>
+          <p class="section-description">
+            O fluxo de trabalho não é uma caixa preta. Cada etapa é transparente, auditável e estruturada para garantir precisão e segurança.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-step">
+            <div class="step-marker">01</div>
+            <div class="step-content">
+              <h4>1. Ingestão & Compreensão de Contexto</h4>
+              <p>O modelo lê a requisição do usuário, analisa as Knowledge Items (KIs) existentes e localiza o estado dos arquivos abertos no workspace.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">02</div>
+            <div class="step-content">
+              <h4>2. Planejamento & Aprovação (Planning Mode)</h4>
+              <p>Para mudanças estruturais, cria um artefato <code class="code-tag">implementation_plan.md</code> com objetivos, riscos e plano de validação antes de alterar arquivos.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">03</div>
+            <div class="step-content">
+              <h4>3. Execução Autônoma de Ferramentas</h4>
+              <p>Chama ferramentas integradas: <code class="code-tag">replace_file_content</code>, <code class="code-tag">run_command</code> no terminal PowerShell e <code class="code-tag">browser_subagent</code>.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-marker">04</div>
+            <div class="step-content">
+              <h4>4. Verificação & Walkthrough Visual</h4>
+              <p>Executa suítes de testes, valida compilações locais e entrega um relatório detalhado em <code class="code-tag">walkthrough.md</code> com evidências do resultado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Simulador de Console / Playground -->
+    <section class="section section-darker" id="simulator">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Demonstração Interativa</span>
+          <h2 class="section-title">Antigravity Live Console Simulator</h2>
+          <p class="section-description">
+            Selecione uma tarefa abaixo e veja em tempo real como o modelo de IA e o Antigravity cooperam executando raciocínio, ferramentas e comandos reais.
+          </p>
+        </div>
+
+        <!-- Seletor de Cenários -->
+        <div class="scenario-selector">
+          <span class="scenario-label"><i class="ph ph-sliders"></i> Escolha um Cenário:</span>
+          <div class="scenario-buttons" id="scenario-buttons">
+            <button class="scenario-btn active" data-scenario="deploy-vercel">
+              <i class="ph ph-cloud-arrow-up"></i> Deploy de Web App na Vercel
+            </button>
+            <button class="scenario-btn" data-scenario="refactor-api">
+              <i class="ph ph-code"></i> Refatoração com Ripgrep & Testes
+            </button>
+            <button class="scenario-btn" data-scenario="browser-e2e">
+              <i class="ph ph-browser"></i> Automação Visual com Navegador
+            </button>
+          </div>
+        </div>
+
+        <!-- Terminal Window Mockup -->
+        <div class="terminal-mockup">
+          <div class="terminal-topbar">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="terminal-title">
+              <i class="ph ph-terminal"></i> antigravity-runtime &bull; gemini-1.5-pro &bull; powershell
+            </div>
+            <div class="terminal-actions">
+              <button class="terminal-copy-btn" id="btn-replay-sim" title="Reiniciar Simulação">
+                <i class="ph ph-arrows-clockwise"></i> Reiniciar
+              </button>
+            </div>
+          </div>
+
+          <div class="terminal-body" id="terminal-body">
+            <!-- As linhas da simulação serão inseridas via JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Boas Práticas & Dicas Avançadas -->
+    <section class="section" id="best-practices">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Guia do Especialista</span>
+          <h2 class="section-title">Boas Práticas no Uso de IA & Antigravity</h2>
+          <p class="section-description">
+            Extraia o máximo de performance e qualidade das suas sessões com comandos e convenções recomendadas.
+          </p>
+        </div>
+
+        <div class="tips-grid">
+          <div class="tip-card">
+            <div class="tip-header">
+              <span class="slash-badge">/goal</span>
+              <h4>Modo Objetivo Noturno</h4>
+            </div>
+            <p>Utilize para tarefas longas e complexas onde o agente é instruído a ser exaustivo e não parar até concluir o teste final.</p>
+          </div>
+
+          <div class="tip-card">
+            <div class="tip-header">
+              <span class="slash-badge">/grill-me</span>
+              <h4>Alinhamento Interativo</h4>
+            </div>
+            <p>Antes de implementar um módulo grande, peça para a IA entrevistar você para fechar decisões de design e prevenir retrabalho.</p>
+          </div>
+
+          <div class="tip-card">
+            <div class="tip-header">
+              <span class="slash-badge">/schedule</span>
+              <h4>Automação com Timers</h4>
+            </div>
+            <p>Agende verificações periódicas ou timers para acompanhar testes assíncronos e deploys sem bloquear o terminal.</p>
+          </div>
+
+          <div class="tip-card">
+            <div class="tip-header">
+              <span class="slash-badge">.agents/skills</span>
+              <h4>Skills Customizadas</h4>
+            </div>
+            <p>Ensine padrões específicos do seu projeto empacotando receitas e documentações dentro da pasta de skills locais.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Pronto para Hospedar na Vercel -->
+    <section class="section section-darker" id="deploy-section">
+      <div class="container">
+        <div class="deploy-banner">
+          <div class="deploy-info">
+            <div class="vercel-badge">
+              <svg width="20" height="20" viewBox="0 0 1155 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M577.346 0L1154.69 1000H0L577.346 0Z" fill="#fff"/>
+              </svg>
+              <span>Otimizado para Vercel</span>
+            </div>
+            <h2 class="deploy-title">Pronto para Publicar em Menos de 1 Minuto</h2>
+            <p class="deploy-text">
+              Esta página foi estruturada com padrões web puros, sem bundlers pesados, arquivos estáticos limpos e arquivo <code class="code-tag">vercel.json</code> pré-configurado com headers de segurança e compressão.
+            </p>
+            <div class="code-snippet-box">
+              <div class="snippet-header">
+                <span>Deploy via Vercel CLI no Terminal:</span>
+                <button class="btn-copy" id="copy-deploy-btn"><i class="ph ph-copy"></i> Copiar</button>
+              </div>
+              <pre><code id="deploy-code">npx vercel deploy --prod</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <div class="brand-logo">
+          <div class="logo-icon"><i class="ph ph-sparkle"></i></div>
+          <span class="logo-text">Anti<strong>gravity</strong> Experience</span>
+        </div>
+        <p class="footer-desc">
+          Demonstração de integração entre arquitetura de agentes avançados e modelos multimodais de inteligência artificial.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Modelos</h5>
+        <ul>
+          <li><a href="#models">Gemini 1.5 Pro</a></li>
+          <li><a href="#models">Gemini 1.5 Flash</a></li>
+          <li><a href="#models">Gemini 3.8 Flash</a></li>
+          <li><a href="#models">Benchmarks</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Plataforma</h5>
+        <ul>
+          <li><a href="#architecture">Arquitetura Agêntica</a></li>
+          <li><a href="#simulator">Simulador de Console</a></li>
+          <li><a href="#best-practices">Comandos & Skills</a></li>
+          <li><a href="#deploy-section">Deploy Vercel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tecnologias</h5>
+        <div class="tech-tags">
+          <span class="tech-tag">HTML5 Semântico</span>
+          <span class="tech-tag">CSS3 Moderno</span>
+          <span class="tech-tag">Vanilla JS</span>
+          <span class="tech-tag">Vercel Ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Antigravity & AI Models Guide. Desenvolvido para publicação instantânea na Vercel.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
